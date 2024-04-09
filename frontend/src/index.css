@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --pink-color: #d9176d;
+    --black-color: #010101;
+    --white-color: #fff;
+    --transition: all 300ms ease-in-out;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.7;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black-color);
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+button {
+    outline: 0;
+    border: none;
+    font-family: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+input {
+    border: none;
+    outline: 0;
+    font-family: inherit;
+    font-size: 1.6rem;
+}
+
+.text-black {
+    color: var(--black-color);
+}.text-pink {
+    color: var(--pink-color);
+}
+.text-capitalize {
+    text-transform: capitalize;
+}
+.text-italic {
+    font-style: italic;
+}
+.fw-3 {
+    font-weight: 300;
+}
+.fw-6 {
+    font-weight: 600;
+}
+.fs-18 {
+    font-size: 1.8rem;
+}
+.fs-24 {
+    font-size: 2.4rem;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flex-column {
+    flex-direction: column;
+}
+.flex-sb {
+    justify-content: space-between;
+}
+.flex-c {
+    justify-content: center;
+}
+.grid {
+    display: grid;
+}
+.bg-white {
+    background-color: var(--white-color);
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
