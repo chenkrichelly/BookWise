@@ -54,7 +54,3 @@ Click the image to watch the project video demo:
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 Fork the project, create your feature branch, commit your changes, push to the branch, and open a pull request.
-
-## Contact
-
-- Project Link: [https://github.com/EASS-HIT-PART-A-2024-CLASS-IV/BookWise](https://github.com/EASS-HIT-PART-A-2024-CLASS-IV/BookWise)
